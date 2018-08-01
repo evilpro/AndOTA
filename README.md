@@ -10,5 +10,10 @@ As mentioned above the utility is written in C#. The current target framework is
 It is currently targeting .NET Framework 2.0 so it should be compatible with most Windows versions.
 
 ## Credits
+### Original script
 This is basically just a reimplementation of the already existing sdat2img Python script.
 The sdat2img repository can be found here: https://github.com/xpirt/sdat2img
+
+### Pyhton range in C#
+The project uses a C# implementation of the Python range function.
+It was originally created by David Tchepak and published on his blog at https://davesquared.net/2008/01/python-like-range-implementation-in-c.html
